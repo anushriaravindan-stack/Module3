@@ -10,8 +10,23 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
 
+    tup = eval(input("Enter a tuple of elements with characters and numbers:"))
+    if 'n' in tup and 8 in tup :
+        print ("The character 'n' and the number (8) are exists in the given tuple")
+    elif 'n' in tup and 8 not in tup :
+        print ("The character 'n' exists in the given tuple but the number (8) doesn't exist")
+    elif 'n' not in tup and 8 in tup :
+        print ("The number (8) exists in the given tuple but the character 'n' doesn't exist")
+    else:
+         print("Both 'n' and 8 are not exist in the givn tuple")
 ## Output
 
+<img width="1918" height="519" alt="image" src="https://github.com/user-attachments/assets/080e4225-7635-40a9-a3c3-024f05c33be4" />
+
+<img width="1917" height="112" alt="image" src="https://github.com/user-attachments/assets/1894d411-a2cf-4557-937e-91a7d65504c6" />
+
+
+
 ## Result
+Thus, The Python program that checks if the element `'n'` and the element `8` exist within a given tuple was executed successfully.
